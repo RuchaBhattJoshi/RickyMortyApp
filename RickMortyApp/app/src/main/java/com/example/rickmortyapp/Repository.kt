@@ -4,7 +4,7 @@ package com.example.rickmortyapp
 class Repository(private val apiService: ApiService) {
 
     //fetch from service
-    fun getCharacters(page:String) = apiService.fetchCharacters(page)
+    suspend fun getCharacters(page:String) = apiService.fetchCharacters(page)
 
 
 }
