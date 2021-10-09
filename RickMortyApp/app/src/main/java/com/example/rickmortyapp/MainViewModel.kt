@@ -5,9 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import retrofit2.Call
-import retrofit2.Response
-import com.example.rickmortyapp.Character
+import com.example.rickmortyapp.network.ApiClient
+import com.example.rickmortyapp.network.Character
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.lang.Exception

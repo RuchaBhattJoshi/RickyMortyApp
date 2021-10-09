@@ -7,7 +7,7 @@ import android.widget.ProgressBar
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.rickmortyapp.Character
+import com.example.rickmortyapp.network.Character
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {

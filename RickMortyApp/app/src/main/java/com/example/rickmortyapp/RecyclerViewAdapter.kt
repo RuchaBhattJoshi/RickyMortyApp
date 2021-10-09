@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import coil.transform.CircleCropTransformation
 import coil.load
-import com.example.rickmortyapp.Character
+import com.example.rickmortyapp.network.Character
 
 
 class RecyclerViewAdapter(val charactersList: List<Character>) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
